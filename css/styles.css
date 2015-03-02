@@ -1,0 +1,42 @@
+/* Global */
+
+body{
+
+	background: url("../img/bg.png");
+}
+
+/* Layout */
+
+.container{
+
+	background: gray;
+	margin:0 auto;
+	width:90%;
+}
+
+/*Adaptive Content*/
+
+iframe, img{
+
+	max-width:100%;
+	width:100%;
+}
+
+article section{
+
+	float:left;
+	padding:2%;
+	width: 46%;
+}
+
+
+
+/* Media Qu */
+
+@media (min-width: 960px){
+	#home {
+
+		width:300px;
+	}
+
+}
