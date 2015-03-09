@@ -31,12 +31,41 @@ article section{
 
 
 
-/* Media Qu */
+/* desktop */
 
 @media (min-width: 960px){
 	#home {
 
 		width:300px;
 	}
+	#youtube-big{
+		width: 420px;
+		display: none;
+
+	}
+	#youtube-med{
+
+		display:block;
+	}
+
+
+}
+/*tablet*/
+@media (min-width: 768px){
+	
+	#youtube-big{
+		width: 420px;
+		display: block;
+
+	}
+	#youtube-med{
+
+		display:none;
+	}
+	
+}
+
+/*mobile*/
+@media (min-width: 480px){
 
 }
