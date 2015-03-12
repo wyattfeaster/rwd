@@ -39,12 +39,17 @@ article section{
 		width:300px;
 	}
 	#youtube-big{
-		width: 420px;
+		width: 100%;
 		display: none;
+		height:600px;
+		margin:auto;
 
 	}
 
+h3{
 
+	margin: 2.5%;
+}
 
 
 }
@@ -52,7 +57,8 @@ article section{
 @media (min-width: 768px){
 	
 	#youtube-big{
-		width: 420px;
+		width: 100%;
+		height:500px;
 		display: block;
 
 	}
@@ -61,6 +67,18 @@ article section{
 		display:none;
 	}
 	
+	#home{
+
+		width: 200px;
+		height: 125px;
+	}
+	.nav{
+
+		position:absolute;
+		top:50px;
+		right:15px;
+	}
+
 }
 
 /*mobile*/
@@ -69,11 +87,7 @@ article section{
 .nav{
 
 	display: inline;
-	text-align: center;
 	list-style: none;
-	margin:auto;
-	padding:0;
-	padding-left:32px;
 	text-align:center;
 
 	
@@ -81,9 +95,17 @@ article section{
 
 }
 
+ul .nav{
+
+	margin:auto;
+	padding:auto;
+
+}
 .nav li{
 
 	display: inline;
+	margin:auto;
+	padding:;
 }
 
 .nav a{
