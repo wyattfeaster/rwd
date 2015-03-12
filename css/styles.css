@@ -11,7 +11,7 @@ body{
 
 	background: gray;
 	margin:0 auto;
-	width:90%;
+	width:100%;
 }
 
 /*Adaptive Content*/
@@ -43,10 +43,8 @@ article section{
 		display: none;
 
 	}
-	#youtube-med{
 
-		display:block;
-	}
+
 
 
 }
@@ -68,4 +66,62 @@ article section{
 /*mobile*/
 @media (min-width: 480px){
 
+nav{
+
+	display: inline;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin:auto;
+	padding-right:40px;
+
+
 }
+
+.nav li{
+
+	display: inline;
+}
+
+.nav a{
+
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding:5px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+}
+ .nav a:visted{
+
+ 	color:white;
+ 	text-decoration: none;
+ }
+
+
+section{
+
+	font-size: .75em;
+}
+
+.discrip{
+
+	clear:both;
+	width: 95%;
+	padding:2.5%;
+}
+
+footer{
+
+	clear:both;
+}
+
+
+
+
+
+
+
+
